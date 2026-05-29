@@ -33,8 +33,10 @@ frontend/.env.local
 .vercel
 
 # Database
-*.sqlite
-*.db
+# *.sqlite
+# *.db
+# Note: We're committing the initial database with seed data
+# For production, consider using a proper database service
 
 # IDE
 .vscode/
