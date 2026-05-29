@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "start": "ls -la && ls node_modules && node src/server.js",
     "seed": "node src/seed.js",
     "postinstall": "echo 'Dependencies installed successfully'"
   },
