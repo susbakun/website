@@ -1,0 +1,201 @@
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.welcomeCard {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.welcomeCard h2 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+}
+
+.welcomeCard p {
+    margin: 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.dashboardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.dashboardCard {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.dashboardCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.dashboardCard h3 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.dashboardCard p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.table {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    background: #667eea;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.table td {
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.table tr:last-child td {
+    border-bottom: none;
+}
+
+.table tr:hover {
+    background: #f8f9fa;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btnEdit {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btnDelete {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btnVerify {
+    background: #10b981;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.formGroup input,
+.formGroup textarea,
+.formGroup select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formGroup textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badgeVerified {
+    background: #10b981;
+    color: white;
+}
+
+.badgePending {
+    background: #f59e0b;
+    color: white;
+}
+
+.badgeAdmin {
+    background: #8b5cf6;
+    color: white;
+}
+
+.badgeExpert {
+    background: #3b82f6;
+    color: white;
+}
+
+.badgeCustomer {
+    background: #6b7280;
+    color: white;
+}

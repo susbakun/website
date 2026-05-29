@@ -1,0 +1,111 @@
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.empty {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.empty p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.ordersList {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.orderCard {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+.orderHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.orderHeader h3 {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.date {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.status {
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.trackingCode {
+    background: #f8f9fa;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.trackingCode strong {
+    color: #333;
+}
+
+.orderItems {
+    margin-bottom: 20px;
+}
+
+.orderItems h4 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 18px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.orderFooter {
+    padding-top: 15px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.totalAmount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.totalAmount strong {
+    color: #667eea;
+    font-size: 22px;
+}

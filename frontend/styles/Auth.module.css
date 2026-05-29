@@ -1,0 +1,48 @@
+.authContainer {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.authCard {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 450px;
+    width: 100%;
+}
+
+.authCard h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+}
+
+.authLink {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+.authLink a {
+    color: #667eea;
+    font-weight: bold;
+}
+
+.authLink a:hover {
+    text-decoration: underline;
+}

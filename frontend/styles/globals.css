@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+  text-align: right;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: #0070f3;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0051cc;
+}
+
+.btn-secondary {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.badge-success {
+  background-color: #10b981;
+  color: white;
+}
+
+.badge-warning {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.badge-info {
+  background-color: #3b82f6;
+  color: white;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #0070f3;
+}
+
+.error {
+  color: #ef4444;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.success {
+  color: #10b981;
+  font-size: 14px;
+  margin-top: 5px;
+}

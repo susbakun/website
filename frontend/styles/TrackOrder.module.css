@@ -1,0 +1,61 @@
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.trackCard {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.orderInfo {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.orderInfo h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.infoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.label {
+    font-weight: 500;
+    color: #666;
+}
+
+.value {
+    color: #333;
+}
+
+.status {
+    padding: 6px 16px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
