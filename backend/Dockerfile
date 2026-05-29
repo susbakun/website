@@ -1,21 +1,18 @@
 FROM node:18-alpine
 
-# Install dependencies for native modules
+# Native build tools for better-sqlite3
 RUN apk add --no-cache python3 make g++
 
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
+COPY package.json package-lock.json ./
 
-# Install dependencies
-RUN npm install --production
+# Reproducible production install; fail the image build if deps are broken
+RUN npm ci --omit=dev && \
+    node -e "require('express'); require('cors'); require('dotenv');"
 
-# Copy application code
 COPY . .
 
-# Expose port
 EXPOSE 5001
 
-# Start the application
-CMD ["npm", "start"]
+CMD ["node", "src/server.js"]
